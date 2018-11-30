@@ -1,0 +1,15 @@
+#!/bin/bash
+   echo "press 's' to print Sanfoundry"
+   read var
+   if $var=s
+   then
+   echo "Sanfoundry"
+   else
+   echo "You did not press s"
+   fi
+   exit 0
+
+# this will give command not found as we don't have square brackets
+# in if statement
+
+

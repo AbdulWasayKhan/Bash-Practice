@@ -1,0 +1,10 @@
+#!/bin/bash
+   echo "How many times you want to print 'Sanfoundry'"
+   read value
+   for ((i=0;i<$value;i++))
+   do
+   echo "Sanfoundry";
+   done
+   exit 0
+
+# this will print sanfoundry on user input

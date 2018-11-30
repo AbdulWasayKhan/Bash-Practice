@@ -1,0 +1,8 @@
+#!/bin/bash
+   san_var="Sanfoundry"
+   echo "$san_var"
+   echo '$san_var'
+   echo '"$san_var"'
+   echo "'$san_var'"
+   echo \$san_var
+   exit 0
